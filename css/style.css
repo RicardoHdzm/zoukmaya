@@ -1,7 +1,7 @@
 body{
 	font-family: "Lora", serif;
 	color: #fff;
-	background-color: #000;
+	background-color: #111111;
 	background-image: url("../img/bg.jpg");
 	background-attachment: fixed;
 	background-size: cover;
@@ -11,6 +11,11 @@ body{
 	overflow-x: hidden;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+}
+
+
+img{
+	user-select: none;
 }
 
 div{
@@ -31,8 +36,8 @@ p{
 }
 
 ::selection {
-	color: #ac1c1c;
-	background: #fff;
+	color: #cf6f1b;
+	background: transparent;
 }
 
 
@@ -100,26 +105,6 @@ p{
 
 @media only screen and (max-width: 1024px){
 
-	.dark-mode{
-		background-image: url("../img/background/bgm-d.png");
-	}
-
-	.navbar{
-		background-color: rgba(0, 0, 0, .7);
-	}
-
-	.navbar p{
-		font-size: small;
-	}
-
-	.navbar a{
-		font-size: small;
-	}
-
-	.nav-logo{
-		width: 90px;
-	}
-
 	.main-logo{
 		width: 350px;
 		height: auto;
@@ -129,23 +114,7 @@ p{
 		font-size: x-large;
 	}
 
-	h2{
-		font-size: x-large;
-	}
-
-	h3{
-		font-size: large;
-	}
-
 	p{
-		font-size: small;
-	}
-
-	.standing-table{
-		font-size: large;
-	}
-
-	tr{
 		font-size: small;
 	}
 
