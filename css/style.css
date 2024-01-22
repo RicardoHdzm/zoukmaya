@@ -1,0 +1,178 @@
+body{
+	font-family: "Lora", serif;
+	color: #fff;
+	background-color: #000;
+	background-image: url("../img/bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	height: 100%;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+div{
+	margin: 0!important;
+	padding: 0!important;
+}
+
+/* TEXT */
+
+h1{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+p{
+	font-size: small;
+	font-weight: bold;
+}
+
+::selection {
+	color: #ac1c1c;
+	background: #fff;
+}
+
+
+
+/* SECTIONS */
+
+.zoukmaya{
+	height: 100vh;
+	text-align: center;
+}
+
+.footer{
+	text-align: center;
+}
+
+.footer p{
+	font-size: xx-small;
+}
+
+/* IMG */
+
+.main-logo{
+	width: 700px;
+}
+
+.alto{
+	width: 150px;
+}
+
+.imgx{
+	pointer-events: none;
+	user-select: none;
+}
+
+
+/* BUTTONS */
+
+.btn{
+	background-color: transparent;
+	font-size: small;
+	font-weight: bold;
+	border: solid;
+	border-width: thin;
+	border-color: #fff;
+	border-radius: 0px;
+	color: #fff;
+	padding: 10px;
+	transition: .2s;
+	width: 250px;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+	border-color: #fff;
+	transform: translateY(-5%);
+}
+
+.btn:focus, .btn:active{
+	box-shadow: none!important;
+	outline: 0;
+}
+
+/* SCREEN */
+
+@media only screen and (max-width: 1024px){
+
+	.dark-mode{
+		background-image: url("../img/background/bgm-d.png");
+	}
+
+	.navbar{
+		background-color: rgba(0, 0, 0, .7);
+	}
+
+	.navbar p{
+		font-size: small;
+	}
+
+	.navbar a{
+		font-size: small;
+	}
+
+	.nav-logo{
+		width: 90px;
+	}
+
+	.main-logo{
+		width: 350px;
+		height: auto;
+	}
+
+	h1{
+		font-size: x-large;
+	}
+
+	h2{
+		font-size: x-large;
+	}
+
+	h3{
+		font-size: large;
+	}
+
+	p{
+		font-size: small;
+	}
+
+	.standing-table{
+		font-size: large;
+	}
+
+	tr{
+		font-size: small;
+	}
+
+	.zoukmaya{
+		height: fit-content;
+	}
+
+	.btn{
+		font-size: x-small;
+	}
+}
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #f2f2f2;
+}
