@@ -106,7 +106,7 @@ p{
 @media only screen and (max-width: 1024px){
 
 	.main-logo{
-		width: 350px;
+		width: 90%;
 		height: auto;
 	}
 
@@ -119,11 +119,16 @@ p{
 	}
 
 	.zoukmaya{
-		height: fit-content;
+		height: 100vh;
+		margin-bottom: 10rem!important;
 	}
 
 	.btn{
 		font-size: x-small;
+	}
+
+	.alto{
+		width: 100px;
 	}
 }
 
